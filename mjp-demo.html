@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Super Ellipses in Javascript</title>
+    <link rel="stylesheet" href="./css/mjp-demo.css">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+        <canvas id="space"></canvas>
+        <div id="controlPanel">
+            <h1>Super Ellipse Generator</h1>
+            <p>N <input type="range" id="nInput" value="0.5" min="0.1" max="5" step="0.01"> <span id="nValue">0.5</span></p>
+            <p>A <input type="range" id="aInput" value="230" min="1" max="270" step="1"> <span id="aValue">230</span></p>
+            <p>B <input type="range" id="bInput" value="230" min="1" max="270" step="1"> <span id="bValue">230</span></p>
+            <p><button onclick="mySuperEllipse.svg">Download shape (SVG)</button>
+            <p class="author">By <a href="http://mjp.co">Matthew Page</a> - Feb 2019</p>
+        </div>
+    </div>
+    <script src="./js/super-ellipse.js"></script>
+    <script src="./js/mjp-demo.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: transparent;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+canvas {
+    display: block;
+    width: 968px;
+    height: 646px;
+}
+img.wikimath {
+    filter: invert();
+}
+#page {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 30px;
+    width: 968px;
+    height: 646px;
+    z-index: 1000;
+    color: white;
+}
+#page p {
+    color: white;
+    font-size: 1.5rem;
+}
+#page img {
+
+}
+#wrapper {
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 20px 0 0 0;
+    width: 968px;
+    height: 646px;
+    z-index: 1000;
+}
+#controlPanel {
+    box-sizing: border-box;
+    position: absolute;
+    top: 32px;
+    left: 652px;
+    width: 300px;
+    height: 614px;
+    padding: 20px 30px;
+    font-size: 1.5rem;
+}
+button {
+    padding: 10px;
+    font-size: 1.25rem;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    width: 100%;
+    margin-top: 30px;
+}
+h1 {
+    margin: 0 0 20px 0;
+    padding: 0px;
+    font-size: 3rem;
+}
+p {
+    margin: 0 0 20px 0;
+    padding: 0px;
+    color: rgba(251, 191, 36, 0.5);
+}
+p.author {
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    font-size: 1rem;
+}
+a { color: #fbbf24; }
+a:hover { color: red; }
+a:active { color: red; }
